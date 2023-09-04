@@ -1,0 +1,64 @@
+body{
+    background-color: #86A3B8;
+    background-blend-mode:color-dodge;
+    background-size: cover;
+    text-align: center;
+}
+
+.admission{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.table_form{
+    margin :0 auto 0 auto;
+    }
+
+
+td{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-decoration: solid;
+    color: black;
+    text-align: left;
+}
+
+hr{
+    margin-top: 5px;
+    background-color: #F5F5F5;
+    border-style: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 40%;
+    height: 3px;
+}
+
+input{
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+select{
+    border-style: none;
+    border-radius: 5px;
+    box-sizing: content-box;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #F5F5F5;
+}
+
+.submit{
+    border-style: none;
+    border-radius: 5px;
+    background-color: chocolate;
+    height: 30px;
+    width: 100px;
+}

@@ -1,0 +1,104 @@
+.first_page{
+    background-color:#E9E8E8;
+    color:black;
+}
+
+.menu{
+    background-color: #913175;
+    text-align: center;
+}
+.heading{
+    display: inline-flex;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.ref{
+    color: white;
+    text-decoration: none;
+}
+
+.heading :hover{
+    background: #00425A;
+    border-radius: 3px;
+}
+
+.uni_dev{
+    margin-top: 60px;
+    background-color: #301E67;
+    height: 200px;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+.uni_head{
+    position: relative;
+    top: 35%;
+    margin: 0 auto 0 auto;
+    color: #ECF9FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.marquee{
+    padding-top: 40px;
+}
+
+.marq{
+    font-size: 20px;
+    text-decoration: solid;
+    background-color: #ECF9FF;
+    color:black;
+}
+
+.campus{
+    text-align: center;
+    background-color: #86A3B8;
+}
+
+.c4{
+    padding-top: 10px;
+}
+
+.c_name{ 
+    position: relative;
+    margin-left: 45%;
+    margin: 0 auto 0 auto;
+}
+
+.picture1{
+    margin-top: 20px;
+}
+
+.uni_pic1{
+    width: 600px;
+    height: 400px;
+}
+
+.Form{
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.prompt{
+    background-color: #86A3B8;
+    text-decoration: none;
+}
+
+
+.link:hover{
+    background:#301E67;
+    color: white;
+    border-radius: 3px;
+}
+
+hr{
+    border-style:dashed;
+    height: 3px;
+    border-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#301E67;
+}

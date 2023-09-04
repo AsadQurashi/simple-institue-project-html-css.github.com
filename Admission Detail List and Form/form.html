@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Admission Detail List and Form/Form_Style.css">
+    <title>Admission Form</title>
+</head>
+<body>
+    <hr>
+    <h1 class="admission">Admission Form</h1>
+    <hr>
+    <div class="div_form">
+        <form class="admission_form" action="/Admission Detail List and Form/Congrats.html" method="get" enctype="text/plain">
+            <table class="table_form" cellspacing="30">
+                <body>
+                        <tr>
+                            <td>First Name</td>
+                            <td><input type="text" placeholder="First Name" name="First Name" id="F_Name"></td>
+                            <td><input type="file" name="" placeholder="Image" accept="image/*" id="image"></td>
+                        </tr> 
+                        <tr>
+                            <td>Last Name</td>
+                            <td><input type="text" placeholder="Last Name" name="Last Name" id="L_Name"></td>
+                        </tr>
+                        <tr>
+                            <td>Father Name</td>
+                            <td><input type="text" placeholder="Father Name" name="Father_Name" id="Father_Name"></td>
+                        </tr>
+                        <tr>
+                            <td>Your CNIC</td>
+                            <td><input type="tel" placeholder="13302123456789" name="CNIC" id="CNIC"></td>
+                        </tr>
+                        <tr>
+                            <td>Your Father CNIC</td>
+                            <td><input type="tel" placeholder="13302123456789" name="Father_CNIC" id="Father_CNIC"></td>
+                        </tr>
+                        <tr>
+                            <td>Your Contact No</td>
+                            <td><input type="tel" placeholder="+923212345678" name="Y_Contact" id="Y_Contact"></td>
+                        </tr>
+                        <tr>
+                            <td>Your Guardian Contact No</td>
+                            <td><input type="tel" placeholder="+923212345678" name="G_Contact" id="G_Contact"></td>
+                        </tr>
+                        <tr>
+                            <td>Your E-Mail</td>
+                            <td><input type="email" placeholder="abc@gmail.com" name="U_Email" id="U_Email"></td>
+                        </tr>
+                        <tr>
+                            <td>Current Home Address</td>
+                            <td><input type="text" placeholder="street no 3" name="C_H_A" id="C_H_A"></td>
+                        </tr>
+                        <tr>
+                            <td>Basic Home Address</td>
+                            <td><input type="text" placeholder="Village/HomeTown" name="Basic Home Address" id="Basic Home Address"></td>
+                        </tr>
+                        <tr>
+                            <td>Your Date Of Birth</td>
+                            <td><input type="date" name="D.O.B" id="D.O.B"></td>
+                        </tr>
+                        <tr>
+                            <td>Select Degree</td>
+                            <td>
+                                <select name="Degree" id="Degree">
+                                    <optgroup label="CS">
+                                        <option value="">BSE</option>
+                                        <option value="">BCE</option>
+                                        <option value="">AI</option>
+                                    </optgroup>
+                                    <optgroup label="Civil_Engineering">
+                                        <option value="">MS in Environmental Engineering</option>
+                                        <option value="">MS in Civil Engineering</option>
+                                        <option value="">Department of Mechanical Engineering</option>
+                                        <option value="">MS in Mechanical Engineering</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select Second(Optional) Degree Program</td>
+                            <td>
+                                <select name="Optional Degree" id="">
+                                    <optgroup label="Economics">
+                                        <option value="">MS in Economics</option>
+                                    </optgroup>
+                                    <optgroup label="Department of Development Studies">
+                                        <option value="">MS in Development Studies</option>
+                                        <option value="">MS in Conflict, Peace and Development Studies</option>
+                                        <option value="">MS in Water, Sanitation, Health and Development</option>
+                                        <option value="">PhD in Development Studies</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Click on Submit Button to enroll yourself</td>
+                            <td><input class="submit" type="submit" value="Submit"></td>
+                        </tr>
+                    </body>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
